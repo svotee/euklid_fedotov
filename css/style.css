@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: black
+}
+.page-head{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    box-shadow: inset 0 -7px 9px -7px rgba(0,0,0,0.7);
+}
+.head{
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    margin: auto 0;
+    font-weight: bold;
+}
+.nav-button:hover{
+    border-bottom: 3px solid #FF9900;
+}
+.nav-button:active{
+    border: 3px solid #FF9900;
+    margin: auto 0;
+}
+.nav-button:focus{
+    border-bottom: 3px solid #E1670E;
+    color: #E1670E;
+}
+.slider {
+    width: 90%;
+    margin: 0 auto;
+    height: 620px;
+    border:1px solid black
+}
+.slider1{
+    background-image: url(../img/low-angle-photo-of-balconies-2462015\ 1.jpg);
+    background-size: cover;
+}
+.slider-text>h1{
+    font-size: 70px;
+    color: white;
+    margin-bottom: 30px;
+}
+.slider-text>p{
+    font-size: 24px;
+    color: white;
+    width: 80%;
+    margin-bottom: 70px;
+}
+.slider-text>button{
+    text-decoration: none;
+    border: none;
+    background-color: #FF9900;
+    color: white;
+    padding: 20px 35px;
+    font-size: 24px;
+}
+.slider-text{
+    width: 60%;
+    margin-top: 80px;
+    margin-left: 60px;
+}
+.dot{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: white;
+    opacity: 40%;
+}
+.dots{
+    display: flex;
+    margin: 0 auto;
+    width: 100px;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.dot:focus{
+    opacity: 100%;
+}
+.search{
+    border: none;
+    border-bottom: 3px solid lightgray;
+    font-size: 18px;
+}
+
+.displaynone {
+    display: none;
+}
+.searchbar {
+    display: flex;
+}
+.searchbar>div{
+    margin: 0 10px;
+}
+
+.width{
+    width: 300px;
+}
+
+.img-svg:active{
+    border: 2px solid #FF9900;
+}
+.slider-text{
+    position: absolute;
+    z-index: 5;
+}
+.swiper-pagination-bullet {
+    background-color: white;
+    width: 15px;
+    height: 15px;
+}
+.slider-text>button:hover{
+    background-color: #fcce89
+}
+.slider-text>button:active{
+    background-color: #fcce89
+}
+.about {
+    width:90%;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.about>p{
+    width: 70%;
+    font-size: 16px;
+    line-height: 30px;
+}
+.about>h1{
+    font-size: 48px;
+    font-weight: 400;
+}
+.about-blocks{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.about-block1{
+    height: 650px;
+    width: 850px;
+    background-size: cover;
+    background-image: url(../img/Rectangle\ 2.jpg);
+}
+.about-block1-text{
+    background-color: black;
+    position: relative;
+    top: 455px;
+    height: 30%;
+    display: flex;
+}
+.about-block1-text>p{
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    width: 55%;
+    margin: auto 0;
+    margin-left: 20%;
+}
+.about-block1-text>button{
+    border:3px solid orange;
+    background-color: black;
+    color: white;
+    height: 30%;
+    margin: auto 0;
+}
+.about-block1-text{
+    align-items: center;
+}
+.about-block2-block1 {
+    display: flex;
+    border: 1px solid lightgray;
+    width: 800px;
+}
+.about-block2-block1-img{
+    padding:60px;
+}
+.about-block2-block1{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.about-blocks{
+    margin-top: 50px;
+}
+.about-text{
+    margin: auto
+}
